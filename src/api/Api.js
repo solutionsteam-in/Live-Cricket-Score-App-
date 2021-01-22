@@ -10,7 +10,7 @@ export const getMatches=()=>
 };
 
 export const getMatchDetail=(id)=>{
-    const url = 'https://cricapi.com/api/cricketScore?apikey=2tjKcEddl7TUdoPmMDF96PyHbh93&unique_id=$(id)';
+    const url = 'https://cricapi.com/api/cricketScore?apikey=2tjKcEddl7TUdoPmMDF96PyHbh93&unique_id=1034809';
     return fetch(url)
     .then(response=>response.json())
     .catch((error)=> console.log(error));
